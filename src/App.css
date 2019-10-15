@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 1px 2px rgba(black,.15);
+}
+.result{
+  width: 150px;
+  height: 75px;
+  background-color: darkgrey;
+}
+
+p {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 1px 2px rgba(black,.15);
+}
+
+
+.App-header {
+  background-color: #282c34;
+  height:50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: relative;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.inputText{
+  width: 50%;
+  height: 50%;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.pokemon {
+  list-style: none;  
+  background-color: #f4f4f4;
+  color: #222;
+text-align: center;
+
+}
+
+.pokemon:hover{
+  background-color: darkred;
+  cursor: pointer;
+}
+.pokemon-title {
+  text-transform: capitalize;
+  margin-bottom: 0px;
+  font-size: 32px;
+  font-weight: normal;
+  
+}
+.pokemon-subtitle {
+  margin-top: 5px;
+  color: #666;
+  font-weight: lighter;
+}
+.pokemon:hover {
+  animation: bounce 0.5s linear;
+}
+
+table{
+  position: relative;
+  align-self: center;
+}
+
+thead, tr ,th {
+  text-align: center;
+}
+
+
+
+td{
+  height: 100px;
+  width: 300px;
+}
+td:hover{
+  background-color: darkred;
+  cursor: pointer;
+}
+
